@@ -1,12 +1,43 @@
-$prefix: "../img/";
+$prefix: "../../../assets/img/";
+$img__about: 
+    $prefix+"about-s1.jpg",
+    $prefix+"about-s2.jpg",
+    $prefix+"about-s3.jpg";
+$img__classes: 
+    $prefix+"classes-s1.jpg",
+    $prefix+"classes-s2.jpg",
+    $prefix+"classes-s3.jpg";
 $img__comingsoon: $prefix+"comingsoon.jpg"; 
+$img__contact: 
+    $prefix+"contact-s1.jpg",
+    $prefix+"contact-s2.jpg",
+    $prefix+"contact-s3.jpg";
 $img__error: $prefix+"error.jpg"; 
-$img__privacy: $prefix+"privacy.jpg"; 
+$img__index: $prefix+"index-s1.jpg";
+$img__prices: 
+    $prefix+"prices-s1.jpg",
+    "",
+    $prefix+"prices-s3.jpg";
+$img__privacy: $prefix+"privacy.jpg";
+$img__trainers: $prefix+"trainers-s1.jpg"; 
 $section__classes:
+    "about",
+    "classes",
     "comingsoon",
+    "contact",
     "error",
-    "privacy";
+    "index",
+    "privacy",
+    "prices",
+    "trainers";
 $section__images:
+    $img__about,
+    $img__classes,
     $img__comingsoon,
+    $img__contact,
     $img__error,
-    $img__privacy;
+    $img__index,
+    $img__privacy,
+    $img__prices,
+    $img__trainers;
+$text__shadow: 1px 1px 3px #333;
