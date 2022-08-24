@@ -1,7 +1,82 @@
-//@include aoa-bg-series($section__classes,$section__images);
+@include aoa-bg-series($section__classes,$section__images);
 
+.about{
+    &-s1{
+        background-color: #666!important;
+        background-blend-mode: multiply;
+    }
+}
+.classes{
+    &-s1{
+        background-color: #fff!important;
+        background-blend-mode: multiply;
+    }
+    &-s3{
+        background-color: #666!important;
+        background-blend-mode: multiply;
+    }
+}
 .comingsoon,.error,.privacy{
     &-s1{
         background-blend-mode: multiply;
+    }
+}
+.contact{
+    &-s3{
+        background-color: #666!important;
+        background-blend-mode: multiply;
+    }
+}
+.prices{
+    &-s1,&-s3{
+        background-color: #666!important;
+        background-blend-mode: multiply;
+    }
+}
+.text{
+    &-shadow{
+        text-shadow: $text__shadow;
+    }
+}
+header{
+    z-index: 100;
+}
+
+@media all and (max-width:767px){
+    .about{
+        &-s2,&-s3{
+            *{
+                color: #fff!important;
+            }
+            background-color: #666!important;
+            background-blend-mode: multiply;
+        }
+    }
+    .classes,.contact{
+        &-s1,&-s2{
+            *{
+                color: #fff!important;
+            }
+            background-color: #666!important;
+            background-blend-mode: multiply;
+        }
+    }
+    
+    .index,.trainers{
+        &-s1{
+            *{
+                color: #fff!important;
+            }
+            background-color: #666!important;
+            background-blend-mode: multiply;
+        }
+    }
+    .navbar{
+        &-nav{
+            background-color: #666!important;
+            border: 1px solid #333;
+            opacity: 0.9;
+            padding: 10px;
+        }
     }
 }
